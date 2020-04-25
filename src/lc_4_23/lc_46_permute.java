@@ -9,7 +9,9 @@ import java.util.List;
  * @date 2020-04-23 21:58
  */
 public class lc_46_permute {
-    public List<List<Integer>> permute (int[] nums){
+
+    // 方法1：回溯
+    public List<List<Integer>> permute1 (int[] nums){
         // 定义一个存放链表的链表permutes用来存放结果集
         List<List<Integer>> permutes = new ArrayList<>();
         // 定义一个链表用来临时存放结果
@@ -43,10 +45,41 @@ public class lc_46_permute {
         }
     }
 
+
+    // 方法2： 还是回溯，只是和方法1的代码稍有不同
+    List<List<Integer>> permutes2 = new ArrayList<>();
+    public List<List<Integer>> permute2(int[] nums){
+        List<Integer> permusteList2 = new ArrayList<>();
+        boolean[] hasVisited = new boolean[nums.length];
+        backtracking2(permusteList2, permutes2, nums, hasVisited);
+        return permutes2;
+    }
+
+    private void backtracking2(List<Integer> permuteList, List<List<Integer>> permutes,
+                               int[] nums, boolean[] visited){
+        if(permuteList.size() == nums.length){
+            permutes.add(new ArrayList<>(permuteList));
+        }
+        for(int i = 0; i < nums.length; i++){
+            // 做选择
+            if(visited[i]){
+                continue;
+            }
+            visited[i] = true;
+            permuteList.add(nums[i]);
+            backtracking2(permuteList, permutes, nums, visited);
+            // 撤销选择
+            permuteList.remove(permuteList.size() - 1);
+            visited[i] = false;
+        }
+
+    }
+
     public static void main(String[] args) {
         int[] nums = new int[]{1,2,3};
         lc_46_permute testclass = new lc_46_permute();
-        List<List<Integer>> res = testclass.permute(nums);
+//        List<List<Integer>> res = testclass.permute1(nums);
+        List<List<Integer>> res = testclass.permute2(nums);
         System.out.println(res);
     }
 }
