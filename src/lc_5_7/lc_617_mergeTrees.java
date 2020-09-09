@@ -1,5 +1,6 @@
 package lc_5_7;
 
+import com.sun.scenario.effect.Merge;
 import common.TreeNode;
 
 /**
@@ -21,6 +22,7 @@ public class lc_617_mergeTrees {
         return root;
     }
 
+    // 方法1的精简版 --> 方法2
     public TreeNode mergeTrees2(TreeNode t1, TreeNode t2){
         if(t1 == null) return t2;
         if(t2 == null) return t1;
