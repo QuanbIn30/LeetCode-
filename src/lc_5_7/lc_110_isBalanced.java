@@ -24,15 +24,20 @@ public class lc_110_isBalanced {
         if (root == null) {
             return 0;
         } else {
+            // 往下递的处理过程
             int left_height = height(root.left);
             int right_height = height(root.right);
+            // 向上归的处理过程
             return Math.max(left_height, right_height) + 1;
         }
     }
 
     // 方法2
-    // 我也不知道，题解也没写这种方法叫什么名字，但是可以避免方法1中冗余的子节点高度重复计算
-    // 很秒～
+    // 我也不知道，题解也没写这种方法叫什么名字，但是可以避免方法1中冗余的子节点高度重复计算 (这种技巧叫"剪枝")
+    // 很妙～
+    public boolean isBalanced2(TreeNode root) {
+        return isBalancedTreeHelper(root).balanced;
+    }
 
     // Utility class to store information from recursive calls
     final class TreeInfo {
@@ -45,38 +50,32 @@ public class lc_110_isBalanced {
         }
     }
 
-    class Solution {
+    private TreeInfo isBalancedTreeHelper(TreeNode root) {
+        // An empty tree is balanced and has height = -1
+        if (root == null) {
+            return new TreeInfo(-1, true);
+        }
 
-        private TreeInfo isBalancedTreeHelper(TreeNode root) {
-            // An empty tree is balanced and has height = -1
-            if (root == null) {
-                return new TreeInfo(-1, true);
-            }
-
-            // Check subtrees to see if they are balanced.
-            TreeInfo left = isBalancedTreeHelper(root.left);
-            if (!left.balanced) {
-                return new TreeInfo(-1, false);
-            }
-            TreeInfo right = isBalancedTreeHelper(root.right);
-            if (!right.balanced) {
-                return new TreeInfo(-1, false);
-            }
-
-            // Use the height obtained from the recursive calls to
-            // determine if the current node is also balanced.
-            if (Math.abs(left.height - right.height) < 2) {
-                return new TreeInfo(Math.max(left.height, right.height) + 1, true);
-            }
+        // Check subtrees to see if they are balanced.
+        TreeInfo left = isBalancedTreeHelper(root.left);
+        if (!left.balanced) {
+            return new TreeInfo(-1, false);
+        }
+        TreeInfo right = isBalancedTreeHelper(root.right);
+        if (!right.balanced) {
             return new TreeInfo(-1, false);
         }
 
-        public boolean isBalanced2(TreeNode root) {
-            return isBalancedTreeHelper(root).balanced;
+        // Use the height obtained from the recursive calls to
+        // determine if the current node is also balanced.
+        if (Math.abs(left.height - right.height) < 2) {
+            return new TreeInfo(Math.max(left.height, right.height) + 1, true);
         }
+        return new TreeInfo(-1, false);
     }
 
-    // 方法3：从底至顶
+
+    // 方法2的精简版 --> 方法3：从底至顶
     // 思路是对二叉树做先序遍历，从底至顶返回子树最大高度，
     // 若判定某子树不是平衡树则 “剪枝”（返回-1就相当于对当前节点进行剪枝了（在以后的判断中生效）） ，直接向上返回。
     public boolean isBalanced3(TreeNode root){
