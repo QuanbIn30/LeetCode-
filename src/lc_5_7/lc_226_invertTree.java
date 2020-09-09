@@ -23,6 +23,7 @@ public class lc_226_invertTree {
     }
      */
 
+    // 方法1
     // 这道题的核心在于遍历节点，只要能接触到每一个节点，就能反转它的左右孩子，
     // 至于遍历方式反而不重要了，先序后序层次都一样(中序遍历貌似不行)，都可以用。
     public TreeNode invertTree(TreeNode root){
@@ -37,6 +38,19 @@ public class lc_226_invertTree {
         invertTree(root.left);
         // 然后访问右孩子
         invertTree(root.right);
+
+        return root;
+    }
+
+    // 方法1的精简写法 --> 方法2
+    public TreeNode invertTree2 (TreeNode root) {
+        if (root == null)
+            return null;
+
+        TreeNode tmp = root.left;
+        root.left = invertTree2(root.right);
+        root.right = invertTree2(tmp);
+
         return root;
     }
 }
