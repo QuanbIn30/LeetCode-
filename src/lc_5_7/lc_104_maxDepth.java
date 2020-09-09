@@ -2,8 +2,6 @@ package lc_5_7;
 
 import common.TreeNode;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -26,7 +24,7 @@ public class lc_104_maxDepth {
             int right_height = maxDepth1(root.right);
             // 把目光放在某个遍历到的跟节点上，秘诀就在这个 + 1 上，
             // 因为就算我左边，右边得到的都是0，但是我把我自己算上，那我返回去的也是1
-            // 而对于不是跟节点的节点来说，那就是简单的找到更大的一个数（也就是更高层）再加上我自己这一层
+            // 而对于不是根节点的节点来说，那就是简单的找到更大的一个数（也就是更高层）再加上我自己这一层
             // 很简单粗暴，对于底层来说，啥也没有但是有自己，对于上层来说，割了最大的韭菜还要加上自己，轻轻松松
             return Math.max(left_height, right_height) + 1;
         }
