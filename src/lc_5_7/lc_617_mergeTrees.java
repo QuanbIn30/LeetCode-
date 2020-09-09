@@ -1,6 +1,5 @@
 package lc_5_7;
 
-import com.sun.scenario.effect.Merge;
 import common.TreeNode;
 
 /**
