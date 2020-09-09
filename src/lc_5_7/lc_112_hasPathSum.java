@@ -13,9 +13,15 @@ public class lc_112_hasPathSum {
 
     // 方法1：递归
     public boolean hasPathSum1(TreeNode root, int sum){
-        if(root == null) return false;
-        if(root.left == null && root.right == null && root.val == sum) return true;
-        return hasPathSum1(root.left, sum - root.val) || hasPathSum1(root.right, sum - root.val);
+
+        if(root == null)
+            return false;
+
+        if(root.left == null && root.right == null && root.val == sum)
+            return true;
+
+        return hasPathSum1(root.left, sum - root.val) ||
+                hasPathSum1(root.right, sum - root.val);
     }
 
     // 方法2：迭代
@@ -26,7 +32,7 @@ public class lc_112_hasPathSum {
         if (root == null)
             return false;
 
-        // 然后定义两个栈并分别将树的头节点和头节点的值存进两个栈中
+        // 然后定义两个栈并分别将树的头节点和（目标sum-头节点的值）存进两个栈中
         LinkedList<TreeNode> node_stack = new LinkedList();
         LinkedList<Integer> sum_stack = new LinkedList();
         node_stack.add(root);
