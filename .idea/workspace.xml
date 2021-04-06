@@ -1,11 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="055745b9-1409-4e17-a2d7-c62de5fb6e04" name="Default Changelist" comment="">
+    <list default="true" id="055745b9-1409-4e17-a2d7-c62de5fb6e04" name="Default Changelist" comment="lc-47题：含有相同元素求排列（理解剪枝）">
+      <change afterPath="$PROJECT_DIR$/src/common/build.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geektimePre/_24_binarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_11/lc_437_pathSumIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lc_20_09/lc_9_12/lc_24_swapPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/META-INF/leetcode.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/lc_4_23/lc_46_permute.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/lc_4_23/lc_46_permute.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lc_4_23/lc_46_permute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_4_23/lc_46_permute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/common/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/common/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exam/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exam/alibabagongzhonghao_4_23.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exam/bianlifeng.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exam/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geektimePre/_15_sqrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geektimePre/_15_sqrt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_10/lc_392_isSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_10/lc_392_isSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_10/lc_435_eraseOverlapIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_10/lc_435_eraseOverlapIntervals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_10/lc_452_findMinArrowShots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_10/lc_452_findMinArrowShots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_10/lc_455_findContentChildren.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_10/lc_455_findContentChildren.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_15/judgeSquareSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_15/judgeSquareSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_15/reverseVowels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_15/reverseVowels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_15/towSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_15/towSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_15/validPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_15/validPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_16/hasCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_16/hasCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_16/lc_524_findLongestWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_16/lc_524_findLongestWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_16/merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_16/merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_17/lc_215_findKthLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_17/lc_215_findKthLargest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_17/lc_347_topKFrequent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_17/lc_347_topKFrequent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_19/lc_121_maxProfitI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_19/lc_121_maxProfitI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_19/lc_122_maxProfitII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_19/lc_122_maxProfitII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_19/lc_392_isSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_19/lc_392_isSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_19/lc_406_reconstructQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_19/lc_406_reconstructQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_19/lc_435_eraseOverlapIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_19/lc_435_eraseOverlapIntervals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_19/lc_451_frequencySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_19/lc_451_frequencySort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_19/lc_452_findMinArrowShots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_19/lc_452_findMinArrowShots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_19/lc_455_findContentChildren.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_19/lc_455_findContentChildren.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_19/lc_53_maxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_19/lc_53_maxSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_19/lc_605_canPlaceFlowers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_19/lc_605_canPlaceFlowers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_19/lc_665_checkPossibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_19/lc_665_checkPossibility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_19/lc_75_sortColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_19/lc_75_sortColors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_19/lc_763_partitionLabels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_19/lc_763_partitionLabels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_20/lc_1091_shortestPathBinaryMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_20/lc_1091_shortestPathBinaryMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_20/lc_153_findMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_20/lc_153_findMin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_20/lc_241_diffWaysToCompute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_20/lc_241_diffWaysToCompute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_20/lc_278_firstBadVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_20/lc_278_firstBadVersion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_20/lc_279_numSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_20/lc_279_numSquares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_20/lc_34_searchRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_20/lc_34_searchRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_20/lc_540_singleNonDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_20/lc_540_singleNonDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_20/lc_69_mySqrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_20/lc_69_mySqrt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_20/lc_744_nextGreatestLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_20/lc_744_nextGreatestLetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_20/lc_95_generateTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_20/lc_95_generateTrees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_21/lc_127_ladderLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_21/lc_127_ladderLength.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_21/lc_200_numIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_21/lc_200_numIslands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_21/lc_695_maxAreaOfIsland.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_21/lc_695_maxAreaOfIsland.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_22/lc_130_solve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_22/lc_130_solve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_22/lc_17_letterCombinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_22/lc_17_letterCombinations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_22/lc_417_pacificAtlantic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_22/lc_417_pacificAtlantic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_22/lc_463_islandPerimeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_22/lc_463_islandPerimeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_22/lc_547_findCircleNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_22/lc_547_findCircleNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_22/lc_827_largestIsland.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_22/lc_827_largestIsland.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_22/lc_93_restoreIpAddresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_22/lc_93_restoreIpAddresses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_23/lc_199_rightSideView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_23/lc_199_rightSideView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_23/lc_257_binaryTreePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_23/lc_257_binaryTreePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_23/lc_46_permute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_23/lc_46_permute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_23/lc_79_exist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_23/lc_79_exist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_26/lc_47_permuteUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_26/lc_47_permuteUnique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_30/lc_216_combinationSum3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_30/lc_216_combinationSum3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_30/lc_39_combinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_30/lc_39_combinationSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_30/lc_40_combinationSum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_30/lc_40_combinationSum2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_30/lc_77_combine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_30/lc_77_combine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_8/lc_1021_RemoveOuterParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_8/lc_1021_RemoveOuterParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_8/lc_1047_RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_8/lc_1047_RemoveDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_8/lc_682_calPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_8/lc_682_calPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_9/BFPRT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_9/BFPRT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_9/BFPRTSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_9/BFPRTSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_4_9/lc_facereview_40_GetLeastNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_04/lc_4_9/lc_facereview_40_GetLeastNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_1/cow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_1/cow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_1/lc_198_rob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_1/lc_198_rob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_1/lc_213_rob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_1/lc_213_rob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_1/lc_337_rob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_1/lc_337_rob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_1/lc_64_minPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_1/lc_64_minPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_1/lc_70_climbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_1/lc_70_climbStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_11/lc_225_MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_11/lc_225_MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_11/lc_232_MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_11/lc_232_MyQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_11/lc_437_pathSumIII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_12/lc_128_longestConsecutive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_12/lc_128_longestConsecutive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_12/lc_155_MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_12/lc_155_MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_12/lc_155_MinStackII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_12/lc_155_MinStackII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_12/lc_1_twoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_12/lc_1_twoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_12/lc_205_isIsomorphic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_12/lc_205_isIsomorphic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_12/lc_20_isValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_12/lc_20_isValid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_12/lc_217_containsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_12/lc_217_containsDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_12/lc_242_isAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_12/lc_242_isAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_12/lc_409_longestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_12/lc_409_longestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_12/lc_503_nextGreaterElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_12/lc_503_nextGreaterElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_12/lc_594_findLHS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_12/lc_594_findLHS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_12/lc_739_dailyTemperatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_12/lc_739_dailyTemperatures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_14/lc_9_isPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_14/lc_9_isPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_2/lc_303_RangeSumQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_2/lc_303_RangeSumQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_2/lc_62_uniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_2/lc_62_uniquePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_3/lc_413_numberOfArithmeticSlices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_3/lc_413_numberOfArithmeticSlices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_4/lc_279_numSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_4/lc_279_numSquares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_4/lc_343_integerBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_4/lc_343_integerBreak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_4/lc_91_numDecodings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_4/lc_91_numDecodings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_5/lc_169_majorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_5/lc_169_majorityElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_5/lc_172_trailingZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_5/lc_172_trailingZeroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_5/lc_204_countPrimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_5/lc_204_countPrimes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_5/lc_405_toHex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_5/lc_405_toHex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_5/lc_415_addStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_5/lc_415_addStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_5/lc_462_minMoves2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_5/lc_462_minMoves2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_5/lc_504_convertToBase7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_5/lc_504_convertToBase7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_5/lc_67_addBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_5/lc_67_addBinary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_6/lc_160_getIntersectionNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_6/lc_160_getIntersectionNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_6/lc_19_removeNthFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_6/lc_19_removeNthFromEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_6/lc_206_reverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_6/lc_206_reverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_6/lc_21_mergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_6/lc_21_mergeTwoLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_6/lc_83_deleteDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_6/lc_83_deleteDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_7/lc_104_maxDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_7/lc_104_maxDepth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_7/lc_110_isBalanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_7/lc_110_isBalanced.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_7/lc_112_hasPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_7/lc_112_hasPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_7/lc_226_invertTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_7/lc_226_invertTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_7/lc_543_diameterOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_7/lc_543_diameterOfBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_5_7/lc_617_mergeTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_05/lc_5_7/lc_617_mergeTrees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_6_17/lc_283_moveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_06/lc_6_17/lc_283_moveZeroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_6_23/lc_jz_09_CQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_06/lc_6_23/lc_jz_09_CQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_6_23/lc_jz_59_maxSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_06/lc_6_23/lc_jz_59_maxSlidingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_9_12/lc_24_swapPairs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_9_7/lc_155_MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_09/lc_9_7/lc_155_MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_9_7/lc_20_isValid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_09/lc_9_7/lc_20_isValid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_9_7/lc_232_MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_09/lc_9_7/lc_232_MyQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_9_7/lc_876_middleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_09/lc_9_7/lc_876_middleNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_9_8/lc_153_findMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_09/lc_9_8/lc_153_findMin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lc_9_8/lc_33_search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lc_20_09/lc_9_8/lc_33_search.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,25 +141,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lc_4_23/lc_46_permute.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#backtracking#0;class#lc_46_permute#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,6 +162,7 @@
       <find>toCharArray</find>
       <find>valueOf</find>
       <find>HashMap</find>
+      <find>hashCode</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -54,57 +171,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/lc_4_19/lc_455_findContentChildren.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_19/lc_435_eraseOverlapIntervals.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_19/lc_452_findMinArrowShots.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_19/lc_406_reconstructQueue.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_19/lc_121_maxProfit.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_19/lc_122_maxProfitII.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_19/lc_605_canPlaceFlowers.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_19/lc_392_isSubsequence.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_19/lc_665_checkPossibility.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_19/lc_53_maxSubArray.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_19/partitionLabels.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_19/lc_763_partitionLabels.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_19/lc_75_sortColors.java" />
-        <option value="$PROJECT_DIR$/src/template.java" />
-        <option value="$PROJECT_DIR$/src/template/ArrInput.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_19/lc_121_maxProfitI.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_20/lc_744_nextGreatestLetter.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_20/lc_540_singleNonDuplicate.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_20/lc_278_firstBadVersion.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_20/lc_153_findMin.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_20/lc_241_diffWaysToCompute.java" />
-        <option value="$PROJECT_DIR$/src/common/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_20/lc_95_generateTrees.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_20/lc_1091_shortestPathBinaryMatrix.java" />
-        <option value="$PROJECT_DIR$/src/template/generateSquares.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_20/lc_279_numSquares.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_20/lc_34_searchRange.java" />
-        <option value="$PROJECT_DIR$/src/template/findFirst.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_20/lc_69_mySqrt.java" />
-        <option value="$PROJECT_DIR$/src/template/mySqrt.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_21/lc_127_ladderLength.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_21/lc_695_maxAreaOfIsland.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_21/lc_200_numIslands.java" />
-        <option value="$PROJECT_DIR$/src/lc_827_largestIsland.java" />
-        <option value="$PROJECT_DIR$/src/template/dfs.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_22/lc_827_largestIsland.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_22/lc_463_islandPerimeter.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_22/lc_547_findCircleNum.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_22/lc_130_solve.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_22/lc_417_pacificAtlantic.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_22/lc_17_letterCombinations.java" />
-        <option value="$PROJECT_DIR$/src/exam/alibabagongzhonghao_4_23.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_22/lc_93_restoreIpAddresses.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_23/lc_199_rightSideView.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_23/test.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_23/Solution.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_23/lc_79_exist.java" />
-        <option value="$PROJECT_DIR$/src/lc_4_23/lc_257_binaryTreePaths.java" />
-        <option value="$PROJECT_DIR$/src/template/backtracking.java" />
-        <option value="$PROJECT_DIR$/src/template/backtracking.md" />
-        <option value="$PROJECT_DIR$/src/lc_4_23/lc_46_permute.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_8/lc_437_pathSum.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_11/lc_232_MyQueue.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_11/lc_225_MyStack.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_12/lc_155_MinStack.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_12/lc_155_MinStackII.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_12/lc_20_isValid.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_12/lc_739_dailyTemperatures.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_12/lc_503_nextGreaterElements.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_12/lc_1_twoSum.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_12/lc_217_containsDuplicate.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_12/lc_594_findLHS.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_12/lc_128_longestConsecutive.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_12/lc_242_isAnagram.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_12/lc_409_longestPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_12/lc_205_isIsomorphic.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_13/lc_647_countSubstrings.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_14/lc_9_isPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/lc_6_17/lc_283_moveZeroes.java" />
+        <option value="$PROJECT_DIR$/src/lc_6_23/lc_jz_09_CQueue.java" />
+        <option value="$PROJECT_DIR$/src/lc_6_23/lc_jz_59_maxSlidingWindow.java" />
+        <option value="$PROJECT_DIR$/src/lc_9_7/lc_876_middleNode.java" />
+        <option value="$PROJECT_DIR$/src/lc_9_7/lc_20_isValid.java" />
+        <option value="$PROJECT_DIR$/src/lc_9_7/lc_155_MinStack.java" />
+        <option value="$PROJECT_DIR$/src/geektimePre/_16_binarySearch_3.java" />
+        <option value="$PROJECT_DIR$/src/geektimePre/_15_binarySearch.java" />
+        <option value="$PROJECT_DIR$/src/geektimePre/_16_binarySearch_1.java" />
+        <option value="$PROJECT_DIR$/src/geektimePre/_16_binarySearch_2.java" />
+        <option value="$PROJECT_DIR$/src/geektimePre/_16_binarySearch_4.java" />
+        <option value="$PROJECT_DIR$/src/lc_9_8/lc_33_search.java" />
+        <option value="$PROJECT_DIR$/src/lc_9_8/lc_153_findMin.java" />
+        <option value="$PROJECT_DIR$/src/geektimePre/_15_sqrt.java" />
+        <option value="$PROJECT_DIR$/src/lc_4_30/lc_77_combine.java" />
+        <option value="$PROJECT_DIR$/src/lc_9_7/lc_232_MyQueue.java" />
+        <option value="$PROJECT_DIR$/src/geektimePre/_23_binaryTreePrint.java" />
+        <option value="$PROJECT_DIR$/src/geektimePre/_24_binarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_7/lc_104_maxDepth.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_7/lc_110_isBalanced.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_7/lc_226_invertTree.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_7/lc_617_mergeTrees.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_7/lc_112_hasPathSum.java" />
+        <option value="$PROJECT_DIR$/src/geektimePre/_31_bfsInGraph.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_11/lc_437_pathSumIII.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_6/lc_206_reverseList.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_6/lc_21_mergeTwoLists.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_6/lc_83_deleteDuplicates.java" />
+        <option value="$PROJECT_DIR$/src/lc_5_6/lc_19_removeNthFromEnd.java" />
+        <option value="$PROJECT_DIR$/src/common/printList.java" />
+        <option value="$PROJECT_DIR$/src/common/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/common/build.java" />
+        <option value="$PROJECT_DIR$/src/common/print.java" />
+        <option value="$PROJECT_DIR$/src/lc_9_12/lc_24_swapPairs.java" />
       </list>
     </option>
   </component>
@@ -114,9 +231,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="35" />
+    <option name="y" value="23" />
+    <option name="width" value="1245" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -124,6 +243,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,19 +260,16 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lc_4_23" type="462c0819:PsiDirectoryNode" />
+              <item name="lc_21_04" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -160,10 +277,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -177,13 +295,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.lc_46_permute">
-    <configuration name="alibabagongzhonghao_4_23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam.alibabagongzhonghao_4_23" />
+  <component name="RunManager" selected="Application.lc_24_swapPairs">
+    <configuration name="lc_112_hasPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lc_20_05.lc_5_7.lc_112_hasPathSum" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam.*" />
+          <option name="PATTERN" value="lc_20_05.lc_5_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,12 +309,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lc_257_binaryTreePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lc_4_23.lc_257_binaryTreePaths" />
+    <configuration name="lc_19_removeNthFromEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lc_20_05.lc_5_6.lc_19_removeNthFromEnd" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lc_4_23.*" />
+          <option name="PATTERN" value="lc_20_05.lc_5_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,12 +322,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lc_46_permute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lc_4_23.lc_46_permute" />
+    <configuration name="lc_206_reverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lc_20_05.lc_5_6.lc_206_reverseList" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lc_4_23.*" />
+          <option name="PATTERN" value="lc_20_05.lc_5_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,12 +335,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lc_79_exist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lc_4_23.lc_79_exist" />
+    <configuration name="lc_24_swapPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lc_20_09.lc_9_12.lc_24_swapPairs" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lc_4_23.*" />
+          <option name="PATTERN" value="lc_20_09.lc_9_12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,12 +348,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lc_93_restoreIpAddresses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lc_4_22.lc_93_restoreIpAddresses" />
+    <configuration name="lc_83_deleteDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lc_20_05.lc_5_6.lc_83_deleteDuplicates" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lc_4_22.*" />
+          <option name="PATTERN" value="lc_20_05.lc_5_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,19 +362,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.alibabagongzhonghao_4_23" />
-      <item itemvalue="Application.lc_93_restoreIpAddresses" />
-      <item itemvalue="Application.lc_79_exist" />
-      <item itemvalue="Application.lc_257_binaryTreePaths" />
-      <item itemvalue="Application.lc_46_permute" />
+      <item itemvalue="Application.lc_112_hasPathSum" />
+      <item itemvalue="Application.lc_206_reverseList" />
+      <item itemvalue="Application.lc_83_deleteDuplicates" />
+      <item itemvalue="Application.lc_19_removeNthFromEnd" />
+      <item itemvalue="Application.lc_24_swapPairs" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lc_46_permute" />
-        <item itemvalue="Application.lc_257_binaryTreePaths" />
-        <item itemvalue="Application.lc_79_exist" />
-        <item itemvalue="Application.lc_93_restoreIpAddresses" />
-        <item itemvalue="Application.alibabagongzhonghao_4_23" />
+        <item itemvalue="Application.lc_24_swapPairs" />
+        <item itemvalue="Application.lc_19_removeNthFromEnd" />
+        <item itemvalue="Application.lc_83_deleteDuplicates" />
+        <item itemvalue="Application.lc_206_reverseList" />
+        <item itemvalue="Application.lc_112_hasPathSum" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +396,21 @@
       <workItem from="1587775658140" duration="194000" />
       <workItem from="1587775875661" duration="41000" />
       <workItem from="1587775918851" duration="3000" />
-      <workItem from="1587775967442" duration="5764000" />
+      <workItem from="1587775967442" duration="7094000" />
+      <workItem from="1587866083533" duration="4109000" />
+      <workItem from="1588204390976" duration="100283000" />
+      <workItem from="1589171029801" duration="19180000" />
+      <workItem from="1589422036670" duration="2206000" />
+      <workItem from="1590224688422" duration="15000" />
+      <workItem from="1591878141660" duration="507000" />
+      <workItem from="1592376680621" duration="1616000" />
+      <workItem from="1592617595397" duration="8000" />
+      <workItem from="1592795857023" duration="84000" />
+      <workItem from="1592881799658" duration="2011000" />
+      <workItem from="1599439479685" duration="41686000" />
+      <workItem from="1599871154578" duration="7527000" />
+      <workItem from="1599960977747" duration="1115000" />
+      <workItem from="1617748922945" duration="241000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode题解首次提交/4.25">
       <created>1587776752474</created>
@@ -294,18 +426,192 @@
       <option name="project" value="LOCAL" />
       <updated>1587783370976</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lc-46题：题解更新，理解回溯模版得到的答案">
+      <created>1587789163710</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587789163710</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lc-47题：含有相同元素求排列（理解剪枝）">
+      <created>1587881024493</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587881024494</updated>
+    </task>
+    <task id="LOCAL-00005" summary="新增4_30到5_3号的代码">
+      <created>1588517664279</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588517664281</updated>
+    </task>
+    <task id="LOCAL-00006" summary="5_4到5_6号的题解">
+      <created>1588780101020</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588780101020</updated>
+    </task>
+    <task id="LOCAL-00007" summary="lc_104_maxDepth 数的最大高度">
+      <created>1588816106181</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588816106181</updated>
+    </task>
+    <task id="LOCAL-00008" summary="lc_110 判断是不是平衡树">
+      <created>1588841144771</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588841144771</updated>
+    </task>
+    <task id="LOCAL-00009" summary="5_7号">
+      <created>1588896377972</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588896377972</updated>
+    </task>
+    <task id="LOCAL-00010" summary="5-11和5-12">
+      <created>1589331684780</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589331684780</updated>
+    </task>
+    <task id="LOCAL-00011" summary="提交lc283题解">
+      <created>1599441722502</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599441722502</updated>
+    </task>
+    <task id="LOCAL-00012" summary="提交lc9、lc-jz09、lc-jz59的题解">
+      <created>1599441815897</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599441815897</updated>
+    </task>
+    <task id="LOCAL-00013" summary="lc-20题：有效的括号">
+      <created>1599482113568</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599482113568</updated>
+    </task>
+    <task id="LOCAL-00014" summary="lc-155题：最小栈">
+      <created>1599484890811</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1599484890811</updated>
+    </task>
+    <task id="LOCAL-00015" summary="geektime_15_sqrt：求一个数的平方根（理解剪枝）">
+      <created>1599533826398</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1599533826398</updated>
+    </task>
+    <task id="LOCAL-00016" summary="geektime：二分查找及其变式">
+      <created>1599556161572</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1599556161572</updated>
+    </task>
+    <task id="LOCAL-00017" summary="lc-153题：寻找旋转排序数组中的最小值">
+      <created>1599570784080</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1599570784080</updated>
+    </task>
+    <task id="LOCAL-00018" summary="lc-33题：搜索旋转排序数组">
+      <created>1599570821907</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1599570821907</updated>
+    </task>
+    <task id="LOCAL-00019" summary="lc-232题：用栈实现队列">
+      <created>1599573586458</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1599573586458</updated>
+    </task>
+    <task id="LOCAL-00020" summary="geektime：二叉树的打印">
+      <created>1599622399541</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1599622399541</updated>
+    </task>
+    <task id="LOCAL-00021" summary="复习maxDepth问题">
+      <created>1599647621382</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1599647621382</updated>
+    </task>
+    <task id="LOCAL-00022" summary="复习isBalanced题目">
+      <created>1599649358447</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1599649358447</updated>
+    </task>
+    <task id="LOCAL-00023" summary="复习invertTree题目">
+      <created>1599654686070</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1599654686070</updated>
+    </task>
+    <task id="LOCAL-00024" summary="复习mergeTrees题目">
+      <created>1599655724052</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1599655724052</updated>
+    </task>
+    <task id="LOCAL-00025" summary="复习mergeTrees题目">
+      <created>1599655742928</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1599655742928</updated>
+    </task>
+    <task id="LOCAL-00026" summary="复习hasPathSum题目">
+      <created>1599658274105</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1599658274105</updated>
+    </task>
+    <task id="LOCAL-00027" summary="lc-24题：两两交换链表中的节点">
+      <created>1599877692400</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1599877692400</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198496000" />
+    <option name="totallyTimeSpent" value="380414000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <frame x="35" y="23" width="1245" height="777" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23990306" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17206983" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24959612" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -313,17 +619,18 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3462604" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3434903" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24145077" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3049505" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32953367" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3290859" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32871288" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32871288" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32876712" />
+      <window_info anchor="bottom" id="Sequence" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -334,18 +641,103 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Word Book" order="10" side_tool="true" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32960597" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="leetcode题解首次提交/4.25" />
     <MESSAGE value="回溯算法模版" />
-    <option name="LAST_COMMIT_MESSAGE" value="回溯算法模版" />
+    <MESSAGE value="lc-46题：题解更新，理解回溯模版得到的答案" />
+    <MESSAGE value="lc-47题：含有相同元素求排列（理解剪枝）" />
+    <MESSAGE value="新增4_30到5_3号的代码" />
+    <MESSAGE value="5_4到5_6号的题解" />
+    <MESSAGE value="lc_104_maxDepth 数的最大高度" />
+    <MESSAGE value="lc_110 判断是不是平衡树" />
+    <MESSAGE value="5_7号" />
+    <MESSAGE value="5-11和5-12" />
+    <MESSAGE value="提交lc283题解" />
+    <MESSAGE value="提交lc9、lc-jz09、lc-jz59的题解" />
+    <MESSAGE value="lc-20题：有效的括号" />
+    <MESSAGE value="lc-155题：最小栈" />
+    <MESSAGE value="geektime_15_sqrt：求一个数的平方根（理解剪枝）" />
+    <MESSAGE value="geektime：二分查找及其变式" />
+    <MESSAGE value="lc-153题：寻找旋转排序数组中的最小值" />
+    <MESSAGE value="lc-33题：搜索旋转排序数组" />
+    <MESSAGE value="lc-232题：用栈实现队列" />
+    <MESSAGE value="geektime：二叉树的打印" />
+    <MESSAGE value="复习maxDepth问题" />
+    <MESSAGE value="复习isBalanced题目" />
+    <MESSAGE value="复习invertTree题目" />
+    <MESSAGE value="复习mergeTrees题目" />
+    <MESSAGE value="复习hasPathSum题目" />
+    <MESSAGE value="lc-24题：两两交换链表中的节点" />
+    <option name="LAST_COMMIT_MESSAGE" value="lc-24题：两两交换链表中的节点" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/leetcode$lc_20_isValid.ic" NAME="lc_20_isValid Coverage Results" MODIFIED="1599482392959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lc_9_7.*</FILTER>
+    </SUITE>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>cnts.get(n)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>permuteList</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>nums</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>visited[1][2]</expression-string>
         <language-id>JAVA</language-id>
@@ -379,420 +771,386 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="568" column="38" selection-start-line="568" selection-start-column="38" selection-end-line="568" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_19/lc_406_reconstructQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_19/lc_122_maxProfitII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_19/lc_605_canPlaceFlowers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_19/lc_392_isSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_19/lc_665_checkPossibility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_19/lc_763_partitionLabels.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_19/lc_53_maxSubArray.java">
+    <entry file="file://$PROJECT_DIR$/src/lc_20_06/lc_6_23/lc_jz_09_CQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_19/lc_75_sortColors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/template.java" />
-    <entry file="file://$PROJECT_DIR$/src/lc_4_19/lc_121_maxProfitI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="738" column="33" selection-start-line="738" selection-start-column="26" selection-end-line="738" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="4567" column="7" lean-forward="true" selection-start-line="4567" selection-start-column="7" selection-end-line="4567" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_20/lc_744_nextGreatestLetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/ArrInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_20/lc_540_singleNonDuplicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_20/lc_278_firstBadVersion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding>
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_20/lc_153_findMin.java">
+    <entry file="file://$PROJECT_DIR$/src/lc_20_06/lc_6_23/lc_jz_59_maxSlidingWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        <state relative-caret-position="336">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_20/lc_241_diffWaysToCompute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="74" column="56" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#diffWaysToCompute#0;class#lc_241_diffWaysToCompute#0" />
-            <element signature="e#2794#2795#0" expanded="true" />
-            <element signature="e#2849#2850#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_20/lc_1091_shortestPathBinaryMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="68" column="27" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#shortestPathBinaryMatrix#0;class#lc_1091_shortestPathBinaryMatrix#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_20/lc_279_numSquares.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/findFirst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_20/lc_34_searchRange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/mySqrt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/generateSquares.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_20/lc_95_generateTrees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="23" column="56" lean-forward="true" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_20/lc_69_mySqrt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_21/lc_200_numIslands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_21/lc_127_ladderLength.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1392">
-          <caret line="129" column="59" lean-forward="true" selection-start-line="129" selection-start-column="59" selection-end-line="129" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#ladderLength1#0;class#lc_127_ladderLength#0" />
-            <element signature="method#getShortestPath#0;class#lc_127_ladderLength#0" />
-            <element signature="method#ladderLength2#0;class#lc_127_ladderLength#0" />
-            <element signature="method#ladderLength4#0;class#lc_127_ladderLength#0" />
-            <element signature="method#ladderLength5#0;class#lc_127_ladderLength#0" />
-            <element signature="method#ladderLength6#0;class#lc_127_ladderLength#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_21/lc_695_maxAreaOfIsland.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_827_largestIsland.java" />
-    <entry file="file://$PROJECT_DIR$/src/template/dfs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
-          <folding>
-            <element signature="e#1562#1563#0" expanded="true" />
-            <element signature="e#1628#1629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_22/lc_827_largestIsland.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="242" column="47" selection-start-line="242" selection-start-column="40" selection-end-line="242" selection-end-column="47" />
-          <folding>
-            <element signature="e#19327#19328#0" expanded="true" />
-            <element signature="e#19410#19411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exam/alibabagongzhonghao_4_23.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="54" column="6" lean-forward="true" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#alibabagongzhonghao_4_23#0" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_23/Solution.java" />
-    <entry file="file://$PROJECT_DIR$/src/common/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_22/lc_463_islandPerimeter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_22/lc_417_pacificAtlantic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1536">
-          <caret line="64" column="62" selection-start-line="64" selection-start-column="62" selection-end-line="64" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_22/lc_547_findCircleNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_22/lc_130_solve.java">
+    <entry file="file://$PROJECT_DIR$/src/lc_20_09/lc_9_7/lc_876_middleNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_22/lc_93_restoreIpAddresses.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#doRestore#0;class#lc_93_restoreIpAddresses#0" />
-            <element signature="method#restoreIpAddresses#0;class#lc_93_restoreIpAddresses#0" />
-          </folding>
+        <state relative-caret-position="352">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_22/lc_17_letterCombinations.java">
+    <entry file="file://$PROJECT_DIR$/src/lc_20_09/lc_9_7/lc_20_isValid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        <state relative-caret-position="219">
+          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_23/lc_199_rightSideView.java">
+    <entry file="file://$PROJECT_DIR$/src/lc_20_09/lc_9_7/lc_155_MinStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exam/bianlifeng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geektimePre/_16_binarySearch_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geektimePre/_16_binarySearch_4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geektimePre/_15_binarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+          <folding>
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geektimePre/_16_binarySearch_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc_20_09/lc_9_8/lc_153_findMin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc_20_05/lc_5_14/lc_9_isPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc_20_09/lc_9_7/lc_232_MyQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geektimePre/_15_sqrt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_23/lc_257_binaryTreePaths.java">
+    <entry file="file://$PROJECT_DIR$/src/lc_20_09/lc_9_8/lc_33_search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc_20_04/lc_4_30/lc_77_combine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geektimePre/_23_binaryTreePrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geektimePre/_24_binarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc_20_05/lc_5_7/lc_104_maxDepth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc_20_05/lc_5_7/lc_110_isBalanced.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="81" column="33" lean-forward="true" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="33" />
+          <folding>
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#2521#2522#0" expanded="true" />
+            <element signature="e#2561#2562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc_20_05/lc_5_7/lc_543_diameterOfBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="763" column="40" selection-start-line="763" selection-start-column="40" selection-end-line="763" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc_20_05/lc_5_7/lc_112_hasPathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc_20_05/lc_5_7/lc_617_mergeTrees.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc_20_05/lc_5_7/lc_226_invertTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geektimePre/_31_bfsInGraph.java" />
+    <entry file="file://$PROJECT_DIR$/src/lc_20_05/lc_5_11/lc_437_pathSumIII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_23/lc_79_exist.java">
+    <entry file="file://$PROJECT_DIR$/src/lc_20_04/lc_4_9/BFPRT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="-237">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/lc_20_04/lc_4_10/lc_392_isSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/backtracking.java">
+    <entry file="file://$PROJECT_DIR$/src/lc_20_04/lc_4_15/judgeSquareSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/backtracking.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="264">
-            <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lc_4_23/lc_46_permute.java">
+    <entry file="file://$PROJECT_DIR$/src/lc_20_04/lc_4_15/reverseVowels.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+        <state relative-caret-position="216">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc_20_04/lc_4_15/towSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc_20_04/lc_4_15/validPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc_20_04/lc_4_16/hasCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc_20_04/lc_4_16/lc_524_findLongestWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc_20_05/lc_5_6/lc_160_getIntersectionNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc_20_05/lc_5_6/lc_206_reverseList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc_20_05/lc_5_6/lc_21_mergeTwoLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1640">
+          <caret line="79" column="29" lean-forward="true" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc_20_05/lc_5_6/lc_83_deleteDuplicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc_9_12.java" />
+    <entry file="file://$PROJECT_DIR$/src/common/print.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/build.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc_20_05/lc_5_6/lc_19_removeNthFromEnd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc_20_09/lc_9_12/lc_24_swapPairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#backtracking#0;class#lc_46_permute#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lc_20_04/lc_4_8/lc_682_calPoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geektimePre/_16_binarySearch_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/dfs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>

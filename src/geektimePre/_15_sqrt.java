@@ -18,7 +18,8 @@ public class _15_sqrt {
 
         // 保留 precision 位小数
         StringBuilder sb = new StringBuilder("0.");
-        for (int i = 0; i < precision; i++) sb.append("0");
+        for (int i = 0; i < precision; i++)
+            sb.append("0");
         DecimalFormat df = new DecimalFormat(sb.toString());
 
         // 计算整数位和小数位，并考虑到四舍五入
